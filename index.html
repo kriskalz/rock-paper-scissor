@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="main.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <div class="selections">
+      <!-- <div class="intro">
+        <h1>Rock Paper and Scissors</h1>
+        <button>Let's Play</button>
+      </div> -->
+
+      <div class="selections">
       <button class="selection" data-selection="rock"><img src="https://www.rock-paper-scissors-game.com/i/rock.png" alt=""></button>
       <button class="selection" data-selection="paper"><img src="https://www.rock-paper-scissors-game.com/i/paper.png" alt=""></button>
       <button class="selection" data-selection="scissors"><img src="https://www.rock-paper-scissors-game.com/i/scissors.png" alt=""></button>       
@@ -17,11 +22,11 @@
     <div class="results">
      <div>
         You
-        <span class="result-score">0</span>
+        <span class="result-score" data-your-score>0</span>
     </div>
     <div data-final-column>
-        computer
-        <span class="result-score">0</span>
+        Computer
+        <span class="result-score" data-computer-score>0</span>
     </div>
     <!-- <div class="results-selection winner">https://www.rock-paper-scissors-game.com/i/rock.png</div>
     <div class="results-selection">https://www.rock-paper-scissors-game.com/i/scissors.png</div> -->
